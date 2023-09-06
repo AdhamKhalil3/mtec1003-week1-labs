@@ -29,10 +29,9 @@ Downloads		Pictures
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
-----------
+Adham.homework2.bak
+Adham.homework2.dwg
 
-total 0
-drwxr-xr-x   4 louisgoldford  staff   128 Jun 10 12:12 CU
 
 
 
@@ -43,9 +42,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-.				Finale.plugins
-..				Max 8
+Adham.homework2.dwg				
+League of Legends
 
 
 
@@ -59,7 +57,7 @@ Copy and paste the output below.
 ----------
 
 ls: doesnotexist: No such file or directory
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
@@ -149,14 +147,16 @@ Follow the instructions line-by-line.
 ==========
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
+Command N
 
-
+mkdir {dir} 
 
 
 ==========
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
-
+  DIR *
+     opendir(const char *filename);
 
 
 
@@ -173,6 +173,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
+/Users/adhamkhalil
 
 
 
@@ -186,6 +187,13 @@ $ ls
 Copy and paste the output below.
 ----------
 
+mkdir: animals: File exists
+
+
+Adlm				Desktop				Library				Parallels			animals
+Applications			Documents			Lightworks			Pictures			gravesendsinn-rebuild
+Applications (Parallels)	Downloads			Movies				Public				thinkorswim
+Creative Cloud Files		Dropbox				Music				Sites
 
 
 
@@ -199,7 +207,11 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+mkdir: food: File exists
+Adlm				Desktop				Library				Parallels			animals
+Applications			Documents			Lightworks			Pictures			food
+Applications (Parallels)	Downloads			Movies				Public				gravesendsinn-rebuild
+Creative Cloud Files		Dropbox				Music				Sites				thinkorswim
 
 
 
@@ -212,7 +224,14 @@ $ ls
 Copy and paste the output below.
 ----------
 
-animals	foo	food
+Adlm				Desktop				Library				Parallels			animals				thinkorswim
+Applications			Documents			Lightworks			Pictures			foo
+Applications (Parallels)	Downloads			Movies				Public				food
+Creative Cloud Files		Dropbox				Music				Sites				gravesendsinn-rebuild
+adhamkhalil@Adhams-MacBook-Pro ~ % 
+
+
+
 
 
 
@@ -226,6 +245,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/Users/adhamkhalil/foo/bar/baz/qux
 
 
 
@@ -238,6 +258,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+/Users/adhamkhalil/foo/bar
 
 
 
@@ -251,7 +272,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/
 
 
 
@@ -264,7 +285,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/
 
 
 
@@ -274,10 +295,13 @@ Copy and paste the output below.
 
 $ ls -l
 $ rmdir animals
-$ ls -l
+$ ls -1
 
 Copy and paste the first 3 lines from the output into the space below.
 ----------
+Applications
+Library
+System
 
 
 
@@ -286,11 +310,12 @@ Copy and paste the first 3 lines from the output into the space below.
 ==========
 23. Type:
 
-$ cd ~
+$cd 
 $ pwd
 
 Copy and paste the output into the space below.
 ----------
+?
 
 
 
@@ -304,7 +329,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 
@@ -317,6 +342,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+cd: no such file or directory: /unknown_folder
 
 
 
@@ -331,6 +357,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+cd: no such file or directory: /Users/adhamkhalil/mtec1003
 
 
 
@@ -342,6 +369,8 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
+Adhams-MacBook-Pro.local
+
 
 
 
@@ -351,7 +380,7 @@ Copy and paste the output into the space below.
 28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+cd ~/mtec1003
 
 
 ==========
